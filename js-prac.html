@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Assignment operator</h1>
+    <h2 class="ao"></h2>
+    <h2 class="ao"></h2>
+    <h2 class="ao"></h2>
+    <h2 class="ao"></h2>
+    <h2 class="ao"></h2>
+    <h2 class="ao"></h2>
+
+
+    <script>
+        //assignment operator +=,-=,*=,/=,%=
+        let a=15;
+        document.getElementsByClassName("ao")[0].innerHTML=a;
+        document.getElementsByClassName("ao")[1].innerHTML=a+=10;
+        document.getElementsByClassName("ao")[2].innerHTML=a-=3;
+        document.getElementsByClassName("ao")[3].innerHTML=a*=5;
+        document.getElementsByClassName("ao")[4].innerHTML=a/=2;
+        document.getElementsByClassName("ao")[5].innerHTML=a%=2;
+    </script>
+<hr>
+
+    <h1>conditional operator</h1>
+    <h2 class="co"></h2>
+    <h2 class="co"></h2>
+    <h2 class="co"></h2>
+    <h2 class="co"></h2>
+    <h2 class="co"></h2>
+    <h2 class="co"></h2>    
+    <h2 class="co"></h2>    
+
+    <script>
+        //conditional operator >,<,>=,<=,==,!=
+        a=60;
+        let b=30;
+        let c=20;
+        document.getElementsByClassName("co")[0].innerHTML=b;
+        document.getElementsByClassName("co")[1].innerHTML=a<b;
+        document.getElementsByClassName("co")[2].innerHTML=a>b;
+        document.getElementsByClassName("co")[3].innerHTML=b<=a;
+        document.getElementsByClassName("co")[4].innerHTML=b>=c;
+        document.getElementsByClassName("co")[5].innerHTML=a==c;
+        document.getElementsByClassName("co")[6].innerHTML=b!=a;
+    </script>
+<hr>
+
+    <h1>logical operator</h1>
+    <h2 class="lo"></h2>
+    <h2 class="lo"></h2>
+    <h2 class="lo"></h2>
+    <h2 class="lo"></h2>
+
+    <script>
+        //logical operator &&,||,!()
+        a=20;
+        b=5;
+        c=15;
+        let d=40;
+        document.getElementsByClassName("lo")[0].innerHTML=a>=b && a==c;        
+        document.getElementsByClassName("lo")[1].innerHTML= a==c || a!=c;       
+        document.getElementsByClassName("lo")[2].innerHTML=b<=d || a==b;      
+        document.getElementsByClassName("lo")[3].innerHTML= !(a==c);     
+    </script>
+<hr>
+
+    <h1>Unary operator</h1>
+    <h2 class="un"></h2>
+    <h2 class="un"></h2>
+
+    <script>
+        //unary +==,-==
+        a=80;
+        a++;
+        document.getElementsByClassName("un")[0].innerHTML="increment :"+a;
+
+        a--;
+        document.getElementsByClassName("un")[1].innerHTML="decrement:"+a;
+    </script>
+</body>
+</html>
